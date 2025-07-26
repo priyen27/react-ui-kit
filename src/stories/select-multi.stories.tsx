@@ -1,0 +1,24 @@
+import type { Meta, StoryObj } from "@storybook/react";
+import "../globals.css";
+
+/**
+ * Displays a form input field or a component that looks like an input field.
+ */
+import type { ComponentType } from "react"; // Import ComponentType from react
+import MultiSelectExample from "../../lib/components/mult-select-example";
+
+const meta = {
+  title: "ui/MultiSelect",
+  component: MultiSelectExample as unknown as ComponentType<unknown>, // Cast UltimoTable as ComponentType<any>
+  tags: ["autodocs"],
+  argTypes: {},
+} satisfies Meta<typeof MultiSelectExample>;
+
+export default meta;
+
+type Story = StoryObj<typeof meta>;
+
+/**
+ * The default form of the input field.
+ */
+export const Default: Story = {};

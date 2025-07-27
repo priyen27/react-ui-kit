@@ -1,7 +1,7 @@
 
-# REUSUABLE-COMPONENT-UI
+# UI-COMPONENTS
 
-Welcome to `my-ui-library`, a comprehensive UI library built using Vite, React, Tailwind CSS, and Shadcn. This design system is tailored for developers looking to integrate robust, scalable, and aesthetically pleasing UI components into their web applications.
+Welcome to `react-ui-kit-priyen`, a comprehensive UI library built using Vite, React, Tailwind CSS, and Shadcn. This design system is tailored for developers looking to integrate robust, scalable, and aesthetically pleasing UI components into their web applications.
 
 ## Features
 
@@ -12,10 +12,10 @@ Welcome to `my-ui-library`, a comprehensive UI library built using Vite, React, 
 
 ## Installation
 
-To install the latest version of `my-ui-library`, run the following command in your project directory:
+To install the latest version of `react-ui-kit-priyen`, run the following command in your project directory:
 **Tailwind CSS is required**: Equipped with a variety of UI
 ```bash
-npm install my-ui-library
+npm install react-ui-kit-priyen
 ```
 
 Tailwind Config
@@ -56,4 +56,4 @@ We welcome contributions from the community! Feel free to fork the repository an
 
 ## License
 
-`my-ui-library` is open source and licensed under the MIT license.
+`react-ui-kit-priyen` is open source and licensed under the MIT license.

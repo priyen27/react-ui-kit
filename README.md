@@ -46,9 +46,7 @@ function App() {
 }
 ```
 
-## Documentation
-
-For detailed documentation on each component, including props and usage examples, please refer to our official documentation site: https://github.com/ultimo-learning/web-common.
+👉 [Live Component Docs (Storybook)](https://react-ui-kit-delta.vercel.app/)
 
 ## Contributing
 

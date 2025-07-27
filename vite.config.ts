@@ -10,7 +10,7 @@ export default defineConfig({
     // library entry and output settings
     lib: {
       entry: resolve(__dirname, "lib/main.ts"),
-      name: "CommonUIComponents",
+      name: "ReactUiKitByPriyen",
       fileName: (format) => `react-ui-kit.${format}.cjs`,
     },
     // bundler options

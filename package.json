@@ -1,6 +1,6 @@
 {
-  "name": "common-ui-components",
-  "version": "1.1.22",
+  "name": "@priyen/react-ui-kit",
+  "version": "1.0.0",
   "description": "Reusable Component library for Ui Design System",
   "type": "module",
   "files": [

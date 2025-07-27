@@ -10,8 +10,8 @@ export default defineConfig({
     // library entry and output settings
     lib: {
       entry: resolve(__dirname, "lib/main.ts"),
-      name: "ultimo-ui",
-      fileName: "ultimo-ui",
+      name: "ReactUiKit",
+      fileName: (format) => `react-ui-kit.${format}.cjs`,
     },
     // bundler options
     // externalize react-related imports

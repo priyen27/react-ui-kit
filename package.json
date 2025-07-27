@@ -1,24 +1,23 @@
 {
-  "name": "my-ui-library",
+  "name": "react-ui-kit",
   "version": "1.1.22",
-  "description": "Reusable Component library for Ultimo Design System",
+  "description": "Reusable Component library for Ui Design System",
   "type": "module",
   "files": [
     "dist"
   ],
   "keywords": [
     "UI",
-    "Design",
-    "Ultimo"
+    "Design"
   ],
   "author": "sachyyn",
   "license": "MIT",
-  "main": "./dist/ultimo-ui.umd.cjs",
-  "module": "./dist/ultimo-ui.js",
+  "main": "./dist/react-ui-kit.umd.cjs",
+  "module": "./dist/react-ui-kit.js",
   "exports": {
     ".": {
-      "import": "./dist/ultimo-ui.js",
-      "require": "./dist/ultimo-ui.umd.cjs"
+      "import": "./dist/react-ui-kit.js",
+      "require": "./dist/react-ui-kit.umd.cjs"
     }
   },
   "sideEffects": false,

@@ -1,5 +1,5 @@
 {
-  "name": "react-ui-kit",
+  "name": "common-ui-components",
   "version": "1.1.22",
   "description": "Reusable Component library for Ui Design System",
   "type": "module",
@@ -10,7 +10,7 @@
     "UI",
     "Design"
   ],
-  "author": "sachyyn",
+  "author": "priyen",
   "license": "MIT",
   "main": "./dist/react-ui-kit.umd.cjs",
   "module": "./dist/react-ui-kit.js",

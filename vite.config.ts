@@ -1,29 +1,25 @@
 import { defineConfig } from "vite";
-import { resolve } from "path";
 import react from "@vitejs/plugin-react";
-import tsconfigPaths from "vite-tsconfig-paths";
+import path from "path";
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), tsconfigPaths()],
+  plugins: [react()],
   build: {
-    // library entry and output settings
     lib: {
-      entry: resolve(__dirname, "lib/main.ts"),
-      name: "ReactUiKitByPriyen",
-      fileName: (format) => `react-ui-kit.${format}.cjs`,
+      entry: path.resolve(__dirname, "lib/main.ts"), // your component exports
+      name: "ReactUiKit",
+      fileName: (format) =>
+        format === "es" ? "react-ui-kit.js" : "react-ui-kit.umd.cjs",
+      formats: ["es", "umd"]
     },
-    // bundler options
-    // externalize react-related imports
     rollupOptions: {
-      external: ["react", "react-dom", "react/jsx-runtime"],
+      external: ["react", "react-dom", "tailwindcss", "react-hook-form", "zod"],
       output: {
         globals: {
           react: "React",
-          "react-dom": "ReactDOM",
-          "react/jsx-runtime": "react/jsx-runtime",
-        },
-      },
-    },
-  },
+          "react-dom": "ReactDOM"
+        }
+      }
+    }
+  }
 });

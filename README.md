@@ -32,7 +32,7 @@ Tailwind Config
 After installation, you can import and use the components in your React projects as follows:
 
 ```javascript
-import { Button, TextInput } from 'ultimo-ui';
+import { Button, TextInput } from 'react-ui-kit-priyen';
 
 function App() {
   return (

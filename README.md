@@ -18,14 +18,11 @@ To install the latest version of `react-ui-kit-priyen`, run the following comman
 npm install react-ui-kit-priyen
 ```
 
-Tailwind Config
-```bash
- content: [
-    ...
-    // Add this to enable tailwind styling in the components:
-    "./node_modules/@ultimo-learning/**/*.{js,ts,jsx,tsx,mdx}"
-  ],
-  ```
+📌 Compatibility
+
+React 18 or higher is supported.
+
+The package externalizes react and react-dom, so make sure you have them installed in your project.
 
 ## Usage
 
@@ -33,6 +30,9 @@ After installation, you can import and use the components in your React projects
 
 ```javascript
 import { Button, TextInput } from 'react-ui-kit-priyen';
+
+// Import the global styles at your app's entry point (e.g., src/index.tsx or _app.tsx)
+import "react-ui-kit-priyen/dist/style.css";
 
 function App() {
   return (
